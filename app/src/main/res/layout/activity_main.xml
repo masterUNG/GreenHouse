@@ -15,7 +15,32 @@
         android:text="0000"
         android:layout_centerInParent="true" />
 
+    <!--Top-->
     <LinearLayout
+        android:layout_above="@+id/linBotton"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnSwitchON2"
+            android:text="Switch ON2"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnSwitchOFF2"
+            android:text="Switch OFF2"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <!--Botton-->
+    <LinearLayout
+        android:id="@+id/linBotton"
         android:layout_alignParentBottom="true"
         android:orientation="horizontal"
         android:layout_width="match_parent"
